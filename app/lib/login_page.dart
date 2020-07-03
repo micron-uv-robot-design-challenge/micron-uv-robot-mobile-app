@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import './username.dart';
+import './password.dart';
+
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -23,11 +26,10 @@ class _LoginPageState extends State<LoginPage> {
                   fontSize: 40,
                 ),
               ),
-              SizedBox(height: 280.0),
-              // Text("Test"),
+              SizedBox(height: 250.0),
               Username(),
               Password(),
-              SizedBox(height: 10.0),
+              SizedBox(height: 28.0),
               // Text("Test"),
               LoginButton(),
             ],
