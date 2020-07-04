@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
+import './status_page.dart';
+
 class LoginButton extends StatelessWidget {
+  Future navigateToStatusPage(context) async {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => StatusPage()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
@@ -17,7 +24,9 @@ class LoginButton extends StatelessWidget {
         ),
       ),
       color: Color(0xFF6CA8F1),
-      onPressed: () {},
+      onPressed: () {
+        navigateToStatusPage(context);
+      },
     );
   }
 }
