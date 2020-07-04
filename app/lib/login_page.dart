@@ -1,11 +1,23 @@
 import 'package:flutter/material.dart';
 
+import './status_page.dart';
+
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
 }
 
 class _LoginPageState extends State<LoginPage> {
+  // The strings which contain inputs from username and password
+  String userInput = '';
+  String passInput = '';
+
+  // The function which navigates to the status page
+  Future navigateToStatusPage(context) async {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => StatusPage()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,6 +70,11 @@ class _LoginPageState extends State<LoginPage> {
                         color: Colors.white54,
                       ),
                     ),
+                    onSubmitted: (String str) {
+                      setState(() {
+                        userInput = str;
+                      });
+                    },
                   ),
                 ),
               ),
@@ -96,6 +113,11 @@ class _LoginPageState extends State<LoginPage> {
                         color: Colors.white54,
                       ),
                     ),
+                    onSubmitted: (String str) {
+                      setState(() {
+                        passInput = str;
+                      });
+                    },
                   ),
                 ),
               ),
@@ -117,7 +139,11 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 color: Color(0xFF6CA8F1),
-                onPressed: () {},
+                onPressed: () {
+                  if (userInput == "micron" && passInput == "123") {
+                    navigateToStatusPage(context);
+                  }
+                },
               ),
             ],
           ),
