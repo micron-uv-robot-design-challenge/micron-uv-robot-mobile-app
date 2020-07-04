@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import './username.dart';
 import './password.dart';
+import './login_button.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -30,7 +31,6 @@ class _LoginPageState extends State<LoginPage> {
               Username(),
               Password(),
               SizedBox(height: 28.0),
-              // Text("Test"),
               LoginButton(),
             ],
           ),
