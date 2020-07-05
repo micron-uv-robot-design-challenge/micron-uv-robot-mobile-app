@@ -1,0 +1,2 @@
+my_package:rosjava_catkin_package_a:rosjava_catkin_package_b
+-DCATKIN_DEVEL_PREFIX=/home/e0325555/rosjava/catkin_ws_rosjava/devel -DCMAKE_INSTALL_PREFIX=/home/e0325555/rosjava/catkin_ws_rosjava/install -G Unix Makefiles
