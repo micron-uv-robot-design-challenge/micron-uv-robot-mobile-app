@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ecbac592df361399efaa7b6dfc7e9f07 CMakeFiles/clean_test_results
+74d4e5019a1e2b7798734b37e75e5c45 rosjava_catkin_package_a/CMakeFiles/gradle-clean-rosjava_catkin_package_a
+f13df2698fb7d63f09825007790a08f7 rosjava_catkin_package_a/CMakeFiles/gradle-rosjava_catkin_package_a
