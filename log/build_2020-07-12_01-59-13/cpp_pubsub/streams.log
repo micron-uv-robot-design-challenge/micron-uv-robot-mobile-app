@@ -1,0 +1,29 @@
+[0.060s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.227s] [35m[1mScanning dependencies of target talker[0m
+[0.293s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.298s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.300s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:8:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktypeof[m[K’
+[3.301s]   cout<<[01;31m[Ktypeof[m[K(buf)<<endl;
+[3.301s]         [01;31m[K^~~~~~[m[K
+[3.301s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:115:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[3.301s]   if (buf == [01;35m[K"1"[m[K) {
+[3.303s]              [01;35m[K^~~[m[K
+[3.303s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:121:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[3.303s]   if (buf == [01;35m[K"2"[m[K) {
+[3.304s]              [01;35m[K^~~[m[K
+[3.304s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:127:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[3.304s]   if (buf == [01;35m[K"3"[m[K) {
+[3.305s]              [01;35m[K^~~[m[K
+[3.307s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:136:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[3.307s]   if (buf == [01;35m[K"4"[m[K) {
+[3.307s]              [01;35m[K^~~[m[K
+[3.307s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:142:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[3.308s]   if (buf == [01;35m[K"5"[m[K) {
+[3.308s]              [01;35m[K^~~[m[K
+[4.372s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[4.378s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.378s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[4.379s] make: *** [all] Error 2
+[4.379s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[4.379s] Makefile:140: recipe for target 'all' failed
+[4.380s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

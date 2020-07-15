@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:16:[m[K [01;31m[Kerror: [m[K‘[01m[KROSLIB[m[K’ does not name a type
+  message = new [01;31m[KROSLIB[m[K.Message({
+                [01;31m[K^~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:116:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         }[01;31m[K)[m[K
+          [01;31m[K^[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+Makefile:140: recipe for target 'all' failed

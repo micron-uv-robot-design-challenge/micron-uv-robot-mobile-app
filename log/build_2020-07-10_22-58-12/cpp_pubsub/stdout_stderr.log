@@ -1,0 +1,80 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+  message.[01;31m[Ktwist[m[K.linear.x = 1.0;
+          [01;31m[K^~~~~[m[K
+          [32m[KTwist_[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+         message.[01;31m[Ktwist[m[K.linear.y = 0.0;
+                 [01;31m[K^~~~~[m[K
+                 [32m[KTwist_[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:115:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+         message.[01;31m[Ktwist[m[K.linear.z = 0.0;
+                 [01;31m[K^~~~~[m[K
+                 [32m[KTwist_[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+  RCLCPP_INFO(node->get_logger(), "I heard: '%f, %f, %f'", message.[01;31m[Kt[m[Kwist.linear.x, message.twist.linear.y, message.twist.linear.z);
+                                                                   [01;31m[K^[m[K
+[01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+  [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "I heard: '%f, %f, %f'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);
+  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+ _logger(), "I heard: '%f, %f, %f'", message.twist.linear.x, message.[01;31m[Kt[m[Kwist.linear.y, message.twist.linear.z);
+                                                                     [01;31m[K^[m[K
+[01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+  [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "I heard: '%f, %f, %f'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);
+  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:115:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+ , %f, %f'", message.twist.linear.x, message.twist.linear.y, message.[01;31m[Kt[m[Kwist.linear.z);
+                                                                     [01;31m[K^[m[K
+[01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+         [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+  [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "I heard: '%f, %f, %f'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);
+  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:118:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktwist[m[K’; did you mean ‘[01m[KTwist_[m[K’?
+         publisher_->publish(message.[01;31m[Ktwist[m[K);
+                                     [01;31m[K^~~~~[m[K
+                                     [32m[KTwist_[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

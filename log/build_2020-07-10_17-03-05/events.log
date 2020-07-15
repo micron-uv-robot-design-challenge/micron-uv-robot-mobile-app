@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000420] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.028455] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.032445] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.035884] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/final/ROS_2_ANDROID/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/final/ROS_2_ANDROID/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'final'), ('LANGUAGE', 'en_SG:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1363'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/final'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/final'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'final'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'final'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/final-VirtualBox:@/tmp/.ICE-unix/1231,unix/final-VirtualBox:/tmp/.ICE-unix/1231'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9215630e_9d20_46a9_ad41_fff74c1027c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/final/ROS_2_ANDROID/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing')]), 'shell': False}
+[0.094497] (-) TimerEvent: {}
+[0.145841] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.191020] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.194974] (-) TimerEvent: {}
+[0.295476] (-) TimerEvent: {}
+[0.333839] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:110:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[0.334240] (cpp_pubsub) StderrLine: {'line': b"  message.data = \x1b[01;35m\x1b[K'{linear: {x: 1.0}}'\x1b[m\x1b[K -1;\n"}
+[0.334451] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.396138] (-) TimerEvent: {}
+[0.496835] (-) TimerEvent: {}
+[0.597298] (-) TimerEvent: {}
+[0.698193] (-) TimerEvent: {}
+[0.800408] (-) TimerEvent: {}
+[0.901150] (-) TimerEvent: {}
+[1.001983] (-) TimerEvent: {}
+[1.102604] (-) TimerEvent: {}
+[1.207971] (-) TimerEvent: {}
+[1.308460] (-) TimerEvent: {}
+[1.409320] (-) TimerEvent: {}
+[1.510026] (-) TimerEvent: {}
+[1.610465] (-) TimerEvent: {}
+[1.710957] (-) TimerEvent: {}
+[1.811510] (-) TimerEvent: {}
+[1.912538] (-) TimerEvent: {}
+[2.003903] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.004245] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.004458] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<\x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K/Twist>("topic", 10);\n'}
+[2.004659] (cpp_pubsub) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.011783] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.012161] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<geometry_msgs/\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("topic", 10);\n'}
+[2.012493] (cpp_pubsub) StderrLine: {'line': b'                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.012748] (-) TimerEvent: {}
+[2.014589] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.014895] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.015158] (cpp_pubsub) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.015510] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.015826] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.016069] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.016271] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.016547] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:177:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\n'}
+[2.016798] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.017097] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.017427] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:177:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.017849] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.018126] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.018341] (cpp_pubsub) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.018655] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.018985] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.019215] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.019941] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.020132] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, size_t, std::shared_ptr<_Up>)\n'}
+[2.020277] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.020414] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.020550] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:198:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.020711] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.020879] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.021013] (cpp_pubsub) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.023727] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[2.024005] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.024150] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[2.024293] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.024432] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>)\n'}
+[2.024569] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.024698] (cpp_pubsub) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.024862] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.024996] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.025125] (cpp_pubsub) StderrLine: {'line': b'   publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.025255] (cpp_pubsub) StderrLine: {'line': b'                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.025384] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:110:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in implicit constant conversion [\x1b[01;35m\x1b[K-Woverflow\x1b[m\x1b[K]\n'}
+[2.025515] (cpp_pubsub) StderrLine: {'line': b"  message.data = \x1b[01;35m\x1b[K'{linear: {x: 1.0}}' -1\x1b[m\x1b[K;\n"}
+[2.025644] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.113216] (-) TimerEvent: {}
+[2.214250] (-) TimerEvent: {}
+[2.314906] (-) TimerEvent: {}
+[2.415716] (-) TimerEvent: {}
+[2.433190] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed\n"}
+[2.436651] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.436892] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed\n"}
+[2.437046] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/talker.dir/all] Error 2\n'}
+[2.437195] (cpp_pubsub) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.437463] (cpp_pubsub) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[2.438338] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[2.440101] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[2.452407] (-) EventReactorShutdown: {}

@@ -1,0 +1,52 @@
+[0.020s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.123s] [35m[1mScanning dependencies of target talker[0m
+[0.182s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.617s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.618s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:85:16:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.618s]    publisher_ = [01;31m[Knode[m[K->create_publisher<std_msgs::msg::String>("topic", 10);
+[1.618s]                 [01;31m[K^~~~[m[K
+[1.619s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:85:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knice[m[K’
+[1.620s]    publisher_ = [01;36m[Knode[m[K->create_publisher<std_msgs::msg::String>("topic", 10);
+[1.620s]                 [01;36m[K^~~~[m[K
+[1.620s]                 [32m[Knice[m[K
+[1.620s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:85:60:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.620s]    publisher_ = node->create_publisher<std_msgs::msg::String[01;31m[K>[m[K("topic", 10);
+[1.621s]                                                             [01;31m[K^[m[K
+[1.621s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:85:71:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.621s]    publisher_ = node->create_publisher<std_msgs::msg::String>("topic", [01;35m[K10[m[K);
+[1.621s]                                                                        [01;35m[K^~[m[K
+[1.622s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/service.hpp:33:0[m[K,
+[1.622s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:25[m[K,
+[1.622s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.622s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.623s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.623s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.623s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.623s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.623s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.624s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[1.624s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.624s]  ename std::remove_reference<typename std::remove_cv<decltype(logger)[01;31m[K>[m[K::type>::type, \
+[1.624s]                                                                      [01;31m[K^[m[K
+[1.624s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:108:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.625s]          [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+[1.625s]          [01;36m[K^~~~~~~~~~~[m[K
+[1.625s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:215:100:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.625s]  std::remove_reference<typename std::remove_cv<decltype(logger)>::type[01;31m[K>[m[K::type, \
+[1.625s]                                                                       [01;31m[K^[m[K
+[1.627s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:108:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.627s]          [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+[1.628s]          [01;36m[K^~~~~~~~~~~[m[K
+[1.628s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:216:32:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.628s]        typename ::rclcpp::Logger[01;31m[K>[m[K::value, \
+[1.628s]                                 [01;31m[K^[m[K
+[1.640s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:108:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.640s]          [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+[1.640s]          [01;36m[K^~~~~~~~~~~[m[K
+[1.922s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[1.925s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.925s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[1.925s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[1.925s] make: *** [all] Error 2
+[1.925s] Makefile:140: recipe for target 'all' failed
+[1.926s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

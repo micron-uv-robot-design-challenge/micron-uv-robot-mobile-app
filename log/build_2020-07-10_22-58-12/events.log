@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000279] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012962] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.014266] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.015981] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/final/ROS_2_ANDROID/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/final/ROS_2_ANDROID/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'final'), ('LANGUAGE', 'en_SG:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1346'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/final'), ('OLDPWD', '/home/final'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'final'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'final'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/final-VirtualBox:@/tmp/.ICE-unix/1214,unix/final-VirtualBox:/tmp/.ICE-unix/1214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ec67812_d880_49aa_9a12_45dcef1a0371'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.66'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/final/ROS_2_ANDROID/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing')]), 'shell': False}
+[0.090261] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.092133] (-) TimerEvent: {}
+[0.145399] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.192254] (-) TimerEvent: {}
+[0.292802] (-) TimerEvent: {}
+[0.393258] (-) TimerEvent: {}
+[0.494466] (-) TimerEvent: {}
+[0.595457] (-) TimerEvent: {}
+[0.696089] (-) TimerEvent: {}
+[0.796663] (-) TimerEvent: {}
+[0.897729] (-) TimerEvent: {}
+[0.998249] (-) TimerEvent: {}
+[1.099111] (-) TimerEvent: {}
+[1.200220] (-) TimerEvent: {}
+[1.300827] (-) TimerEvent: {}
+[1.401398] (-) TimerEvent: {}
+[1.502212] (-) TimerEvent: {}
+[1.583729] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.584134] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.584343] (cpp_pubsub) StderrLine: {'line': b'  message.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K.linear.x = 1.0;\n'}
+[1.584543] (cpp_pubsub) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.584762] (cpp_pubsub) StderrLine: {'line': b'          \x1b[32m\x1b[KTwist_\x1b[m\x1b[K\n'}
+[1.585210] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.585548] (cpp_pubsub) StderrLine: {'line': b'         message.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K.linear.y = 0.0;\n'}
+[1.585864] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.586149] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[32m\x1b[KTwist_\x1b[m\x1b[K\n'}
+[1.586475] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:115:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.586700] (cpp_pubsub) StderrLine: {'line': b'         message.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K.linear.z = 0.0;\n'}
+[1.586882] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.587113] (cpp_pubsub) StderrLine: {'line': b'                 \x1b[32m\x1b[KTwist_\x1b[m\x1b[K\n'}
+[1.588124] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[1.588327] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.588515] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.588686] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.588861] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.589065] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.589234] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.589405] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.589571] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[1.589736] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[1.589978] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.590643] (cpp_pubsub) StderrLine: {'line': b'  RCLCPP_INFO(node->get_logger(), "I heard: \'%f, %f, %f\'", message.\x1b[01;31m\x1b[Kt\x1b[m\x1b[Kwist.linear.x, message.twist.linear.y, message.twist.linear.z);\n'}
+[1.590786] (cpp_pubsub) StderrLine: {'line': b'                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.591431] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.591560] (cpp_pubsub) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[1.591680] (cpp_pubsub) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.591796] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.591949] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[1.592065] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.592180] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592302] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[1.592418] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.592532] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592649] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "I heard: \'%f, %f, %f\'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);\n'}
+[1.592770] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.592919] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.593044] (cpp_pubsub) StderrLine: {'line': b' _logger(), "I heard: \'%f, %f, %f\'", message.twist.linear.x, message.\x1b[01;31m\x1b[Kt\x1b[m\x1b[Kwist.linear.y, message.twist.linear.z);\n'}
+[1.593162] (cpp_pubsub) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.593275] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.593485] (cpp_pubsub) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[1.593641] (cpp_pubsub) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.593756] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.593870] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[1.593984] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.594111] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.594228] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[1.594370] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.594488] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.594654] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "I heard: \'%f, %f, %f\'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);\n'}
+[1.594812] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.598905] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:115:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.599058] (cpp_pubsub) StderrLine: {'line': b' , %f, %f\'", message.twist.linear.x, message.twist.linear.y, message.\x1b[01;31m\x1b[Kt\x1b[m\x1b[Kwist.linear.z);\n'}
+[1.599180] (cpp_pubsub) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.599329] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.599450] (cpp_pubsub) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[1.599575] (cpp_pubsub) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.599692] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.599809] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[1.599924] (cpp_pubsub) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.600038] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.600153] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[1.600340] (cpp_pubsub) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.600457] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.600572] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "I heard: \'%f, %f, %f\'", message.twist.linear.x, message.twist.linear.y, message.twist.linear.z);\n'}
+[1.600693] (cpp_pubsub) StderrLine: {'line': b'  \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.600808] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:118:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct geometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktwist\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KTwist_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.600926] (cpp_pubsub) StderrLine: {'line': b'         publisher_->publish(message.\x1b[01;31m\x1b[Ktwist\x1b[m\x1b[K);\n'}
+[1.601055] (cpp_pubsub) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.601186] (cpp_pubsub) StderrLine: {'line': b'                                     \x1b[32m\x1b[KTwist_\x1b[m\x1b[K\n'}
+[1.607153] (-) TimerEvent: {}
+[1.707741] (-) TimerEvent: {}
+[1.808308] (-) TimerEvent: {}
+[1.909299] (-) TimerEvent: {}
+[2.010106] (-) TimerEvent: {}
+[2.111261] (-) TimerEvent: {}
+[2.133027] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed\n"}
+[2.134999] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.135367] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed\n"}
+[2.135553] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/talker.dir/all] Error 2\n'}
+[2.135673] (cpp_pubsub) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[2.135789] (cpp_pubsub) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[2.137569] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[2.143476] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[2.151569] (-) EventReactorShutdown: {}

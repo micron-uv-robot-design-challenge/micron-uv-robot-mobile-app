@@ -12,4 +12,5 @@
     <string name="Conect">Conection test</string>
     <string name="send">send msg</string>
     <string name="number">-</string>
+    <string name="showText" />
 </resources>

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:107:26:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [7][m[K’ and ‘[01m[Kchar [4096][m[K’ to binary ‘[01m[Koperator+[m[K’
+  message.data = [01;31m[K"Edmund" + buf[m[K;
+                 [01;31m[K~~~~~~~~~^~~~~[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

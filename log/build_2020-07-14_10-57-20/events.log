@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000772] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.056479] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.057901] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.061540] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/final/ROS_2_ANDROID/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/final/ROS_2_ANDROID/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'final'), ('LANGUAGE', 'en_SG:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/final/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/final/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/final'), ('OLDPWD', '/home/final'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/final/turtlebot3_ws/install:/home/final/ROS_2_ANDROID/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'final'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('GAZEBO_MODEL_PATH', ':/home/final/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('USERNAME', 'final'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/final-VirtualBox:@/tmp/.ICE-unix/1344,unix/final-VirtualBox:/tmp/.ICE-unix/1344'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7db0fde7_4605_4d57_91a2_36f70697dba3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.62'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/home/final/turtlebot3_ws/install/turtlebot3_simulations:/home/final/turtlebot3_ws/install/turtlebot3_gazebo:/home/final/turtlebot3_ws/install/turtlebot3:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_bringup:/home/final/turtlebot3_ws/install/turtlebot3_node:/home/final/turtlebot3_ws/install/turtlebot3_navigation2:/home/final/turtlebot3_ws/install/turtlebot3_fake_node:/home/final/turtlebot3_ws/install/turtlebot3_example:/home/final/turtlebot3_ws/install/turtlebot3_msgs:/home/final/turtlebot3_ws/install/turtlebot3_description:/home/final/turtlebot3_ws/install/turtlebot3_cartographer:/home/final/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/final/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/final/ROS_2_ANDROID/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/final/turtlebot3_ws/build/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/final/turtlebot3_ws/build/turtlebot3_example:/home/final/turtlebot3_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/final/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/home/final/turtlebot3_ws/install/turtlebot3_simulations:/home/final/turtlebot3_ws/install/turtlebot3_gazebo:/home/final/turtlebot3_ws/install/turtlebot3:/home/final/turtlebot3_ws/install/turtlebot3_bringup:/home/final/turtlebot3_ws/install/turtlebot3_node:/home/final/turtlebot3_ws/install/turtlebot3_navigation2:/home/final/turtlebot3_ws/install/turtlebot3_fake_node:/home/final/turtlebot3_ws/install/turtlebot3_msgs:/home/final/turtlebot3_ws/install/turtlebot3_description:/home/final/turtlebot3_ws/install/turtlebot3_cartographer:/home/final/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/final/turtlebot3_ws/install/dynamixel_sdk:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing')]), 'shell': False}
+[0.089404] (-) TimerEvent: {}
+[0.197854] (-) TimerEvent: {}
+[0.285149] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.299464] (-) TimerEvent: {}
+[0.382359] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.400670] (-) TimerEvent: {}
+[0.505935] (-) TimerEvent: {}
+[0.607021] (-) TimerEvent: {}
+[0.711108] (-) TimerEvent: {}
+[0.815389] (-) TimerEvent: {}
+[0.929218] (-) TimerEvent: {}
+[1.031286] (-) TimerEvent: {}
+[1.134602] (-) TimerEvent: {}
+[1.237285] (-) TimerEvent: {}
+[1.339634] (-) TimerEvent: {}
+[1.443414] (-) TimerEvent: {}
+[1.546442] (-) TimerEvent: {}
+[1.651813] (-) TimerEvent: {}
+[1.753281] (-) TimerEvent: {}
+[1.854117] (-) TimerEvent: {}
+[1.955008] (-) TimerEvent: {}
+[2.059028] (-) TimerEvent: {}
+[2.165449] (-) TimerEvent: {}
+[2.266895] (-) TimerEvent: {}
+[2.370867] (-) TimerEvent: {}
+[2.474183] (-) TimerEvent: {}
+[2.577212] (-) TimerEvent: {}
+[2.680280] (-) TimerEvent: {}
+[2.782296] (-) TimerEvent: {}
+[2.884377] (-) TimerEvent: {}
+[2.988000] (-) TimerEvent: {}
+[3.089146] (-) TimerEvent: {}
+[3.190837] (-) TimerEvent: {}
+[3.293008] (-) TimerEvent: {}
+[3.394073] (-) TimerEvent: {}
+[3.497039] (-) TimerEvent: {}
+[3.602366] (-) TimerEvent: {}
+[3.705168] (-) TimerEvent: {}
+[3.807894] (-) TimerEvent: {}
+[3.913858] (-) TimerEvent: {}
+[4.014517] (-) TimerEvent: {}
+[4.117852] (-) TimerEvent: {}
+[4.221239] (-) TimerEvent: {}
+[4.330505] (-) TimerEvent: {}
+[4.436533] (-) TimerEvent: {}
+[4.538605] (-) TimerEvent: {}
+[4.641038] (-) TimerEvent: {}
+[4.747523] (-) TimerEvent: {}
+[4.851341] (-) TimerEvent: {}
+[4.953914] (-) TimerEvent: {}
+[5.055016] (-) TimerEvent: {}
+[5.157111] (-) TimerEvent: {}
+[5.259264] (-) TimerEvent: {}
+[5.365718] (-) TimerEvent: {}
+[5.467500] (-) TimerEvent: {}
+[5.577840] (-) TimerEvent: {}
+[5.681075] (-) TimerEvent: {}
+[5.782171] (-) TimerEvent: {}
+[5.883049] (-) TimerEvent: {}
+[5.988034] (-) TimerEvent: {}
+[6.090325] (-) TimerEvent: {}
+[6.190883] (-) TimerEvent: {}
+[6.293930] (-) TimerEvent: {}
+[6.395069] (-) TimerEvent: {}
+[6.495726] (-) TimerEvent: {}
+[6.601023] (-) TimerEvent: {}
+[6.703757] (-) TimerEvent: {}
+[6.805201] (-) TimerEvent: {}
+[6.909714] (-) TimerEvent: {}
+[7.013020] (-) TimerEvent: {}
+[7.115367] (-) TimerEvent: {}
+[7.217021] (-) TimerEvent: {}
+[7.320529] (-) TimerEvent: {}
+[7.425373] (-) TimerEvent: {}
+[7.528847] (-) TimerEvent: {}
+[7.629679] (-) TimerEvent: {}
+[7.732041] (-) TimerEvent: {}
+[7.773432] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.832262] (-) TimerEvent: {}
+[7.937971] (-) TimerEvent: {}
+[8.041938] (-) TimerEvent: {}
+[8.144945] (-) TimerEvent: {}
+[8.247259] (-) TimerEvent: {}
+[8.296588] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[8.351375] (-) TimerEvent: {}
+[8.387788] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.427833] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.451517] (-) TimerEvent: {}
+[8.520020] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[8.552211] (-) TimerEvent: {}
+[8.560480] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/final/ROS_2_ANDROID/build/cpp_pubsub', '--target', 'install', '--', '-j1', '-l1'], 'cwd': '/home/final/ROS_2_ANDROID/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'final'), ('LANGUAGE', 'en_SG:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/final/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/final/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/final'), ('OLDPWD', '/home/final'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/final/turtlebot3_ws/install:/home/final/ROS_2_ANDROID/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'final'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('GAZEBO_MODEL_PATH', ':/home/final/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/models'), ('USERNAME', 'final'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/final-VirtualBox:@/tmp/.ICE-unix/1344,unix/final-VirtualBox:/tmp/.ICE-unix/1344'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7db0fde7_4605_4d57_91a2_36f70697dba3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.62'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/home/final/turtlebot3_ws/install/turtlebot3_simulations:/home/final/turtlebot3_ws/install/turtlebot3_gazebo:/home/final/turtlebot3_ws/install/turtlebot3:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_bringup:/home/final/turtlebot3_ws/install/turtlebot3_node:/home/final/turtlebot3_ws/install/turtlebot3_navigation2:/home/final/turtlebot3_ws/install/turtlebot3_fake_node:/home/final/turtlebot3_ws/install/turtlebot3_example:/home/final/turtlebot3_ws/install/turtlebot3_msgs:/home/final/turtlebot3_ws/install/turtlebot3_description:/home/final/turtlebot3_ws/install/turtlebot3_cartographer:/home/final/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/final/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/final/ROS_2_ANDROID/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/home/final/turtlebot3_ws/build/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/final/turtlebot3_ws/build/turtlebot3_example:/home/final/turtlebot3_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/final/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/home/final/turtlebot3_ws/install/turtlebot3_simulations:/home/final/turtlebot3_ws/install/turtlebot3_gazebo:/home/final/turtlebot3_ws/install/turtlebot3:/home/final/turtlebot3_ws/install/turtlebot3_bringup:/home/final/turtlebot3_ws/install/turtlebot3_node:/home/final/turtlebot3_ws/install/turtlebot3_navigation2:/home/final/turtlebot3_ws/install/turtlebot3_fake_node:/home/final/turtlebot3_ws/install/turtlebot3_msgs:/home/final/turtlebot3_ws/install/turtlebot3_description:/home/final/turtlebot3_ws/install/turtlebot3_cartographer:/home/final/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/final/turtlebot3_ws/install/dynamixel_sdk:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing')]), 'shell': False}
+[8.654075] (-) TimerEvent: {}
+[8.757511] (-) TimerEvent: {}
+[8.765089] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[8.855118] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.857777] (-) TimerEvent: {}
+[8.921611] (cpp_pubsub) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[8.952288] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.953257] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[8.956848] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[8.957659] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[8.957820] (-) TimerEvent: {}
+[8.959325] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[8.959722] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[8.960038] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[8.962736] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[8.963206] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[8.963527] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[8.965098] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[8.965807] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[8.968370] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[8.968711] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[8.969040] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[8.980273] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.035828] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[9.040046] (-) EventReactorShutdown: {}

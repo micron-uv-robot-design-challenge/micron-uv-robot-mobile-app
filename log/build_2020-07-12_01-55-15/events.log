@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000327] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.053553] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.059488] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.065998] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/final/ROS_2_ANDROID/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/home/final/ROS_2_ANDROID/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'final'), ('LANGUAGE', 'en_SG:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1361'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/final'), ('OLDPWD', '/home/final'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'final'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'final'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/final-VirtualBox:@/tmp/.ICE-unix/1229,unix/final-VirtualBox:/tmp/.ICE-unix/1229'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/812b98d7_0ca1_49d6_8632_1ccebd8ab366'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/final/ROS_2_ANDROID/build/cpp_pubsub'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/final/ROS_2_ANDROID/install/cpp_pubsub:/opt/ros/dashing')]), 'shell': False}
+[0.094326] (-) TimerEvent: {}
+[0.198865] (-) TimerEvent: {}
+[0.231045] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.298776] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.299025] (-) TimerEvent: {}
+[0.402282] (-) TimerEvent: {}
+[0.505885] (-) TimerEvent: {}
+[0.609597] (-) TimerEvent: {}
+[0.711606] (-) TimerEvent: {}
+[0.815380] (-) TimerEvent: {}
+[0.921180] (-) TimerEvent: {}
+[1.024313] (-) TimerEvent: {}
+[1.127556] (-) TimerEvent: {}
+[1.231024] (-) TimerEvent: {}
+[1.331823] (-) TimerEvent: {}
+[1.435024] (-) TimerEvent: {}
+[1.537397] (-) TimerEvent: {}
+[1.639007] (-) TimerEvent: {}
+[1.746193] (-) TimerEvent: {}
+[1.846986] (-) TimerEvent: {}
+[1.950066] (-) TimerEvent: {}
+[2.053890] (-) TimerEvent: {}
+[2.159333] (-) TimerEvent: {}
+[2.265978] (-) TimerEvent: {}
+[2.366703] (-) TimerEvent: {}
+[2.470997] (-) TimerEvent: {}
+[2.572651] (-) TimerEvent: {}
+[2.673828] (-) TimerEvent: {}
+[2.777952] (-) TimerEvent: {}
+[2.883008] (-) TimerEvent: {}
+[2.984180] (-) TimerEvent: {}
+[3.087564] (-) TimerEvent: {}
+[3.189503] (-) TimerEvent: {}
+[3.291214] (-) TimerEvent: {}
+[3.391604] (-) TimerEvent: {}
+[3.492017] (-) TimerEvent: {}
+[3.588164] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.588614] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[3.588967] (cpp_pubsub) StderrLine: {'line': b'  if (buf[0] == \x1b[01;35m\x1b[K"1"\x1b[m\x1b[K) {\n'}
+[3.589229] (cpp_pubsub) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.589468] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids comparison between pointer and integer [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.590941] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:120:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[3.591182] (cpp_pubsub) StderrLine: {'line': b'  if (buf == \x1b[01;35m\x1b[K"2"\x1b[m\x1b[K) {\n'}
+[3.591371] (cpp_pubsub) StderrLine: {'line': b'             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.591664] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:126:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[3.591885] (cpp_pubsub) StderrLine: {'line': b'  if (buf == \x1b[01;35m\x1b[K"3"\x1b[m\x1b[K) {\n'}
+[3.592014] (-) TimerEvent: {}
+[3.594022] (cpp_pubsub) StderrLine: {'line': b'             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.594416] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:135:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[3.594618] (cpp_pubsub) StderrLine: {'line': b'  if (buf == \x1b[01;35m\x1b[K"4"\x1b[m\x1b[K) {\n'}
+[3.594842] (cpp_pubsub) StderrLine: {'line': b'             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.595087] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:141:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K-Waddress\x1b[m\x1b[K]\n'}
+[3.595268] (cpp_pubsub) StderrLine: {'line': b'  if (buf == \x1b[01;35m\x1b[K"5"\x1b[m\x1b[K) {\n'}
+[3.595784] (cpp_pubsub) StderrLine: {'line': b'             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.693286] (-) TimerEvent: {}
+[3.793696] (-) TimerEvent: {}
+[3.897675] (-) TimerEvent: {}
+[3.999384] (-) TimerEvent: {}
+[4.101488] (-) TimerEvent: {}
+[4.205680] (-) TimerEvent: {}
+[4.309353] (-) TimerEvent: {}
+[4.412365] (-) TimerEvent: {}
+[4.519698] (-) TimerEvent: {}
+[4.623737] (-) TimerEvent: {}
+[4.706627] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed\n"}
+[4.711808] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[4.712025] (cpp_pubsub) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed\n"}
+[4.712196] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/talker.dir/all] Error 2\n'}
+[4.712331] (cpp_pubsub) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[4.712449] (cpp_pubsub) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[4.712934] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.713745] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.727037] (-) EventReactorShutdown: {}

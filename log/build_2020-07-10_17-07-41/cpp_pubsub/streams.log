@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.100s] [35m[1mScanning dependencies of target talker[0m
+[0.164s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.290s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/Twist.h: No such file or directory
+[0.290s]  #include [01;31m[K<geometry_msgs/Twist.h>[m[K
+[0.290s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.290s] compilation terminated.
+[0.293s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[0.296s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.299s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[0.299s] make: *** [all] Error 2
+[0.299s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[0.299s] Makefile:140: recipe for target 'all' failed
+[0.300s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

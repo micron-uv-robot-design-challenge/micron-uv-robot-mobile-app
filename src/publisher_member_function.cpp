@@ -17,7 +17,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-
+#include "geometry_msgs/msg/twist.hpp"
 
 #include <iostream>
 #include <sys/types.h>
@@ -81,10 +81,14 @@ int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);
 
   auto node = rclcpp::Node::make_shared("minimal_publisher");
-  auto message = std_msgs::msg::String();
-  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-  publisher_ = node->create_publisher<std_msgs::msg::String>("topic", 10);
-
+  //auto message = std_msgs::msg::String();
+  auto message = geometry_msgs::msg::Twist();
+  //rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+  //publisher_ = node->create_publisher<std_msgs::msg::String>("topic", 10);
+  //publisher_ = node->create_publisher<std_msgs::msg::String>("demo/cmd_demo", 10);
+  //publisher_ = node->create_publisher<geometry_msgs::msg::Twist>("demo/cmd_demo", 10);
+  publisher_ = node->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
 
 while (true)
@@ -105,8 +109,45 @@ while (true)
             break;
         }
         //RCLCPP_INFO(node->get_logger(), buf);
-        message.data = buf;
-        RCLCPP_INFO(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+        //message.data = buf;
+	//message.data = "Edmund";
+	// buf is the value sent from the android phone
+	// Forward
+	if (stoi(buf) == 1) {
+		message.linear.x = 1.0;
+        	message.linear.y = 0.0;
+        	message.linear.z = 0.0;
+	}
+	// Backward
+	if (stoi(buf) == 2) {
+		message.linear.x = -1.0;
+        	message.linear.y = 0.0;
+        	message.linear.z = 0.0;
+	}
+	// Anti-clockwise
+	if (stoi(buf) == 3) {
+		message.angular.x = 0.0;
+        	message.angular.y = 0.0;
+        	message.angular.z = 0.1;
+	}
+	// Clockwise
+	if (stoi(buf) == 4) {
+		message.angular.x = 0.0;
+        	message.angular.y = 0.0;
+        	message.angular.z = -0.1;
+	}
+	// Stop
+	if (stoi(buf) == 5) {
+		message.linear.x = 0.0;
+        	message.linear.y = 0.0;
+        	message.linear.z = 0.0;
+		message.angular.x = 0.0;
+        	message.angular.y = 0.0;
+        	message.angular.z = 0.0;
+	}
+	//RCLCPP_INFO(node->get_logger(), "Publishing: '%s'", message.data.c_str());
+	RCLCPP_INFO(node->get_logger(), "Publishing linear velocities: '%f, %f, %f'", message.linear.x, message.linear.y, message.linear.z);
+	RCLCPP_INFO(node->get_logger(), "Publishing angular velocities: '%f, %f, %f'", message.angular.x, message.angular.y, message.angular.z);
         publisher_->publish(message);
          
         // Echo message back to client

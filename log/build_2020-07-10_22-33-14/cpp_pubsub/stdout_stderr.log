@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type {aka geometry_msgs::msg::Vector3_<std::allocator<void> >}[m[K’ and ‘[01m[Kconst char [20][m[K’)
+  message.linear = [01;31m[K"x: 1.0,y: 0.0,z:0.0"[m[K
+                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:30:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:20[m[K:
+[01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:41:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(const geometry_msgs::msg::Vector3_<std::allocator<void> >&)
+ struct [01;36m[KVector3_[m[K
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:41:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [20][m[K’ to ‘[01m[Kconst geometry_msgs::msg::Vector3_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:41:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr geometry_msgs::msg::Vector3_<std::allocator<void> >& geometry_msgs::msg::Vector3_<std::allocator<void> >::operator=(geometry_msgs::msg::Vector3_<std::allocator<void> >&&)
+[01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:41:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [20][m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >&&[m[K’
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

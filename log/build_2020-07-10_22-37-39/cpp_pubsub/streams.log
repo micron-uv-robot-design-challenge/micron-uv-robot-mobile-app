@@ -1,0 +1,17 @@
+[0.025s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.110s] [35m[1mScanning dependencies of target talker[0m
+[0.159s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.607s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.607s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:16:[m[K [01;31m[Kerror: [m[K‘[01m[KROSLIB[m[K’ does not name a type
+[1.607s]   message = new [01;31m[KROSLIB[m[K.Message({
+[1.607s]                 [01;31m[K^~~~~~[m[K
+[1.608s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:116:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.608s]          }[01;31m[K)[m[K
+[1.608s]           [01;31m[K^[m[K
+[2.097s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[2.099s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.100s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[2.100s] make: *** [all] Error 2
+[2.100s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[2.100s] Makefile:140: recipe for target 'all' failed
+[2.101s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

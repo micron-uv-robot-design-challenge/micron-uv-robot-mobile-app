@@ -1,0 +1,28 @@
+[0.021s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.096s] [35m[1mScanning dependencies of target talker[0m
+[0.151s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.288s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:12:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.289s]   message = [01;35m[K'[2.0, 0.0, 0.0]'[m[K '[0.0, 0.0, 1.8]'
+[0.289s]             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[0.289s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:30:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.289s]   message = '[2.0, 0.0, 0.0]' [01;35m[K'[0.0, 0.0, 1.8]'[m[K
+[0.289s]                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.746s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.746s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:12:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ and ‘[01m[Kint[m[K’)
+[1.747s]   message = [01;31m[K'[2.0, 0.0, 0.0]'[m[K '[0.0, 0.0, 1.8]'
+[1.747s]             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.747s] In file included from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist.hpp:7:0[m[K,
+[1.748s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:20[m[K:
+[1.748s] [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:46:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr geometry_msgs::msg::Twist_<std::allocator<void> >& geometry_msgs::msg::Twist_<std::allocator<void> >::operator=(const geometry_msgs::msg::Twist_<std::allocator<void> >&)
+[1.748s]  struct [01;36m[KTwist_[m[K
+[1.748s]         [01;36m[K^~~~~~[m[K
+[1.748s] [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:46:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’
+[1.749s] [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:46:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr geometry_msgs::msg::Twist_<std::allocator<void> >& geometry_msgs::msg::Twist_<std::allocator<void> >::operator=(geometry_msgs::msg::Twist_<std::allocator<void> >&&)
+[1.749s] [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:46:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >&&[m[K’
+[2.299s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[2.303s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.303s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[2.303s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[2.304s] make: *** [all] Error 2
+[2.304s] Makefile:140: recipe for target 'all' failed
+[2.305s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

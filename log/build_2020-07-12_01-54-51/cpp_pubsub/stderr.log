@@ -1,0 +1,19 @@
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+  if (buf* [01;31m[K==[m[K "1") {
+           [01;31m[K^~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:120:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+  if (buf* [01;31m[K==[m[K "2") {
+           [01;31m[K^~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:126:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+  if (buf* [01;31m[K==[m[K "3") {
+           [01;31m[K^~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:135:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+  if (buf* [01;31m[K==[m[K "4") {
+           [01;31m[K^~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:141:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+  if (buf* [01;31m[K==[m[K "5") {
+           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

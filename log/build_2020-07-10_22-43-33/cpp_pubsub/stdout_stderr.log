@@ -1,0 +1,54 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  [01;31m[Kmsg[m[K->linear.x = 1.0;
+  [01;31m[K^~~[m[K
+[01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:2:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message.hpp:7:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:31[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+ namespace [01;36m[Kmsg[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time.hpp:7:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/time.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/clock.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/timer.hpp:26[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:27[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+ namespace [01;36m[Kmsg[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/std_msgs/msg/string.hpp:7:0[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:19[m[K:
+[01m[K/opt/ros/dashing/include/std_msgs/msg/string__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+ namespace [01;36m[Kmsg[m[K
+           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:30:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:20[m[K:
+[01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+ namespace [01;36m[Kmsg[m[K
+           [01;36m[K^~~[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+Makefile:140: recipe for target 'all' failed
