@@ -1,0 +1,101 @@
+[0.019s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.091s] [35m[1mScanning dependencies of target talker[0m
+[0.145s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.658s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.659s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:113:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’
+[1.659s]   message[01;31m[K->[m[Klinear.x = 1.0;
+[1.659s]          [01;31m[K^~[m[K
+[1.660s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’
+[1.660s]   message[01;31m[K->[m[Klinear.y = 0.0;
+[1.660s]          [01;31m[K^~[m[K
+[1.660s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:115:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’
+[1.660s]   message[01;31m[K->[m[Klinear.z = 0.0;
+[1.661s]          [01;31m[K^~[m[K
+[1.662s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0[m[K,
+[1.662s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23[m[K,
+[1.662s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.662s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.663s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.663s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.663s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.663s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.663s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[1.664s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[1.664s]   RCLCPP_INFO(node->get_logger(), "I heard: '%i, %i, %i'", [01;31m[Km[m[Ksg->linear.x, msg->linear.y, msg->linear.z);
+[1.664s]                                                            [01;31m[K^[m[K
+[1.664s] [01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[1.664s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[1.665s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[1.665s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[1.665s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[1.666s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.666s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[1.667s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[1.667s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.667s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.667s]   [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "I heard: '%i, %i, %i'", msg->linear.x, msg->linear.y, msg->linear.z);
+[1.671s]   [01;36m[K^~~~~~~~~~~[m[K
+[1.672s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:59:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[1.672s]   RCLCPP_INFO(node->get_logger(), "I heard: '%i, %i, %i'", [01;36m[Km[m[Ksg->linear.x, msg->linear.y, msg->linear.z);
+[1.672s]                                                            [01;36m[K^[m[K
+[1.672s] [01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[1.672s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[1.672s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[1.672s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[1.672s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[1.673s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.673s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[1.673s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[1.673s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.673s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:117:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[1.673s]   [01;36m[KRCLCPP_INFO[m[K(node->get_logger(), "I heard: '%i, %i, %i'", msg->linear.x, msg->linear.y, msg->linear.z);
+[1.673s]   [01;36m[K^~~~~~~~~~~[m[K
+[1.673s] In file included from [01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message.hpp:7:0[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/publisher.hpp:31[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:24[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.674s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.675s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.675s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[1.675s] [01m[K/opt/ros/dashing/include/rcl_interfaces/msg/intra_process_message__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[1.675s]  namespace [01;36m[Kmsg[m[K
+[1.679s]            [01;36m[K^~~[m[K
+[1.679s] In file included from [01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time.hpp:7:0[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/time.hpp:18[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/clock.hpp:21[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/timer.hpp:26[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:27[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.680s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[1.681s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[1.681s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[1.681s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[1.681s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[1.681s] [01m[K/opt/ros/dashing/include/builtin_interfaces/msg/time__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[1.681s]  namespace [01;36m[Kmsg[m[K
+[1.681s]            [01;36m[K^~~[m[K
+[1.682s] In file included from [01m[K/opt/ros/dashing/include/std_msgs/msg/string.hpp:7:0[m[K,
+[1.682s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:19[m[K:
+[1.682s] [01m[K/opt/ros/dashing/include/std_msgs/msg/string__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[1.682s]  namespace [01;36m[Kmsg[m[K
+[1.682s]            [01;36m[K^~~[m[K
+[1.682s] In file included from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist__struct.hpp:30:0[m[K,
+[1.682s]                  from [01m[K/opt/ros/dashing/include/geometry_msgs/msg/twist.hpp:7[m[K,
+[1.682s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:20[m[K:
+[1.683s] [01m[K/opt/ros/dashing/include/geometry_msgs/msg/vector3__struct.hpp:36:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[1.683s]  namespace [01;36m[Kmsg[m[K
+[1.683s]            [01;36m[K^~~[m[K
+[2.165s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[2.167s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.167s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[2.167s] make: *** [all] Error 2
+[2.168s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[2.168s] Makefile:140: recipe for target 'all' failed
+[2.170s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1

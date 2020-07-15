@@ -1,0 +1,43 @@
+[0.085s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.328s] [35m[1mScanning dependencies of target talker[0m
+[0.404s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.330s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.331s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:114:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[4.331s]   if (buf == [01;35m[K"1"[m[K) {
+[4.331s]              [01;35m[K^~~[m[K
+[4.331s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:120:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[4.336s]   if (buf == [01;35m[K"2"[m[K) {
+[4.336s]              [01;35m[K^~~[m[K
+[4.338s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:126:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[4.338s]   if (buf == [01;35m[K"3"[m[K) {
+[4.338s]              [01;35m[K^~~[m[K
+[4.338s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:135:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[4.340s]   if (buf == [01;35m[K"4"[m[K) {
+[4.340s]              [01;35m[K^~~[m[K
+[4.340s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:141:13:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K-Waddress[m[K]
+[4.341s]   if (buf == [01;35m[K"5"[m[K) {
+[4.341s]              [01;35m[K^~~[m[K
+[7.323s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[7.848s] [ 50%] Built target talker
+[7.936s] [100%] Built target listener
+[7.977s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[8.115s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1
+[8.324s] [ 50%] Built target talker
+[8.423s] [100%] Built target listener
+[8.491s] [36mInstall the project...[0m
+[8.521s] -- Install configuration: ""
+[8.526s] -- Installing: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker
+[8.530s] -- Set runtime path of "/home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[8.533s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/listener
+[8.534s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[8.534s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[8.535s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.535s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.536s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.537s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.537s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.537s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.539s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.540s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.540s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.557s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1

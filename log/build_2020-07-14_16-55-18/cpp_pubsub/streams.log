@@ -1,0 +1,27 @@
+[0.074s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.339s] [35m[1mScanning dependencies of target talker[0m
+[0.463s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[8.797s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[9.521s] [ 50%] Built target talker
+[9.631s] [100%] Built target listener
+[9.682s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[9.868s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1
+[10.102s] [ 50%] Built target talker
+[10.188s] [100%] Built target listener
+[10.254s] [36mInstall the project...[0m
+[10.288s] -- Install configuration: ""
+[10.292s] -- Installing: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.294s] -- Set runtime path of "/home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.296s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.296s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.298s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.299s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.299s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.300s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.300s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.301s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.303s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.303s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.304s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.304s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.318s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/final/turtlebot3_ws/install/turtlebot3_teleop:/home/final/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1

@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.083s] [35m[1mScanning dependencies of target talker[0m
+[0.127s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.698s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[2.907s] [ 50%] Built target talker
+[2.948s] [100%] Built target listener
+[2.967s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[3.017s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1
+[3.099s] [ 50%] Built target talker
+[3.133s] [100%] Built target listener
+[3.164s] [36mInstall the project...[0m
+[3.177s] -- Install configuration: ""
+[3.177s] -- Installing: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.178s] -- Set runtime path of "/home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.179s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/lib/cpp_pubsub/listener
+[3.180s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.180s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.180s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.181s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.181s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.181s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.182s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.182s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.182s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.182s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.183s] -- Up-to-date: /home/final/ROS_2_ANDROID/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.187s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub --target install -- -j1 -l1

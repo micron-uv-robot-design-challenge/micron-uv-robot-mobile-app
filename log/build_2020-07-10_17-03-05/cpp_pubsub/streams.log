@@ -1,0 +1,59 @@
+[0.037s] Invoking command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
+[0.146s] [35m[1mScanning dependencies of target talker[0m
+[0.191s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.334s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:110:17:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[0.334s]   message.data = [01;35m[K'{linear: {x: 1.0}}'[m[K -1;
+[0.334s]                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.004s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.004s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[2.004s]    publisher_ = node->create_publisher<[01;31m[Kgeometry_msgs[m[K/Twist>("topic", 10);
+[2.004s]                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[2.012s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ was not declared in this scope
+[2.012s]    publisher_ = node->create_publisher<geometry_msgs/[01;31m[KTwist[m[K>("topic", 10);
+[2.012s]                                                      [01;31m[K^~~~~[m[K
+[2.014s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [6], int)[m[K’
+[2.015s]    publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10[01;31m[K)[m[K;
+[2.015s]                                                                        [01;31m[K^[m[K
+[2.015s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.016s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.016s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.016s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[2.016s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:177:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[2.017s]    [01;36m[Kcreate_publisher[m[K(
+[2.017s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.017s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:177:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.018s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.018s]    publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10[01;31m[K)[m[K;
+[2.018s]                                                                        [01;31m[K^[m[K
+[2.018s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.019s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.019s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.020s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[2.020s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:198:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, size_t, std::shared_ptr<_Up>)
+[2.020s]    [01;36m[Kcreate_publisher[m[K(
+[2.020s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.020s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:198:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.020s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.021s]    publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10[01;31m[K)[m[K;
+[2.021s]                                                                        [01;31m[K^[m[K
+[2.024s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[2.024s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+[2.024s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[2.024s]                  from [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:18[m[K:
+[2.024s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>)
+[2.024s]    [01;36m[Kcreate_publisher[m[K(
+[2.024s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.025s] [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.025s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:88:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.025s]    publisher_ = node->create_publisher<geometry_msgs/Twist>("topic", 10[01;31m[K)[m[K;
+[2.025s]                                                                        [01;31m[K^[m[K
+[2.025s] [01m[K/home/final/ROS_2_ANDROID/src/publisher_member_function.cpp:110:38:[m[K [01;35m[Kwarning: [m[Koverflow in implicit constant conversion [[01;35m[K-Woverflow[m[K]
+[2.025s]   message.data = [01;35m[K'{linear: {x: 1.0}}' -1[m[K;
+[2.025s]                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.433s] CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/publisher_member_function.cpp.o' failed
+[2.436s] make[2]: *** [CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.437s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+[2.437s] make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+[2.437s] make: *** [all] Error 2
+[2.437s] Makefile:140: recipe for target 'all' failed
+[2.439s] Invoked command in '/home/final/ROS_2_ANDROID/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/final/ROS_2_ANDROID/build/cpp_pubsub -- -j1 -l1
