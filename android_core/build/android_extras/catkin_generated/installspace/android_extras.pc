@@ -1,8 +1,0 @@
-prefix=/home/e0325555/android_core/install
-
-Name: android_extras
-Description: Description of android_extras
-Version: 0.3.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
