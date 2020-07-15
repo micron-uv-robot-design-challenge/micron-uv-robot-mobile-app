@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        showText = (TextView) findViewById(R.id.showText);
+        showText = findViewById(R.id.showText);
 
         btnForward = findViewById(R.id.forward);
         btnBackward = findViewById(R.id.backward);

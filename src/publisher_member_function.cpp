@@ -111,33 +111,48 @@ while (true)
         //RCLCPP_INFO(node->get_logger(), buf);
         //message.data = buf;
 	//message.data = "Edmund";
+	//char* pEnd;
+	
 	// buf is the value sent from the android phone
+	long command = strtol(buf, NULL, 10);
 	// Forward
-	if (stoi(buf) == 1) {
+	if (command == 1) {
 		message.linear.x = 1.0;
         	message.linear.y = 0.0;
         	message.linear.z = 0.0;
+		message.angular.x = 0.0;
+        	message.angular.y = 0.0;
+        	message.angular.z = 0.0;
 	}
 	// Backward
-	if (stoi(buf) == 2) {
+	if (command == 2) {
 		message.linear.x = -1.0;
         	message.linear.y = 0.0;
         	message.linear.z = 0.0;
+		message.angular.x = 0.0;
+        	message.angular.y = 0.0;
+        	message.angular.z = 0.0;
 	}
 	// Anti-clockwise
-	if (stoi(buf) == 3) {
+	if (command == 3) {
+		message.linear.x = 0.0;
+        	message.linear.y = 0.0;
+        	message.linear.z = 0.0;
 		message.angular.x = 0.0;
         	message.angular.y = 0.0;
         	message.angular.z = 0.1;
 	}
 	// Clockwise
-	if (stoi(buf) == 4) {
+	if (command == 4) {
+		message.linear.x = 0.0;
+        	message.linear.y = 0.0;
+        	message.linear.z = 0.0;
 		message.angular.x = 0.0;
         	message.angular.y = 0.0;
         	message.angular.z = -0.1;
 	}
 	// Stop
-	if (stoi(buf) == 5) {
+	if (command == 5) {
 		message.linear.x = 0.0;
         	message.linear.y = 0.0;
         	message.linear.z = 0.0;

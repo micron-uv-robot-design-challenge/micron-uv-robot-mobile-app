@@ -1,0 +1,5 @@
+CMake Error: The current CMakeCache.txt directory /home/yetong1895/micron-uv-robot-mobile-app/build/cpp_pubsub/CMakeCache.txt is different than the directory /home/final/ROS_2_ANDROID/build/cpp_pubsub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/final/ROS_2_ANDROID" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [cmake_check_build_system] Error 1
+Makefile:296: recipe for target 'cmake_check_build_system' failed
