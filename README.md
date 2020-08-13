@@ -1,4 +1,6 @@
-# Dependencies
+# LumiNUSBot
+An easily manufacturable and cost-effective UV disinfection robot
+## Dependencies
 - Ubuntu 18.04 LTS (Bionic Beaver)
 - ROS 2 Dashing Diademata
 - Gazebo 9
